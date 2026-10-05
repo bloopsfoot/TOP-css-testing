@@ -1,0 +1,29 @@
+* {
+    color: rgb(0, 0, 0);    
+}
+div {
+    color: rgb(215, 25, 25);
+}
+
+.class-text {
+    /* class named class-text, elements can have lots of em */
+    color: palegoldenrod;
+}
+
+#title {
+    /*
+       id named title, elements can only have one id
+       but ids seem so scrutinizing that its easier to use classes
+       but idk tho it seems like classes are nicer instead of ids
+    */
+    background-color: brown;
+    color: antiquewhite;
+}
+
+.subsection.header {
+    color: blue;
+}
+
+.subsection#preview {
+    color: peru;
+}
